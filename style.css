@@ -1,0 +1,62 @@
+
+body {
+    overflow-y: hidden;
+}
+
+.btn-success, .btn-success:hover{
+position: absolute;
+    top: 45%;
+    left: 44%;
+
+    background-color: darkgrey;
+    border: darkgrey;
+}
+
+
+#container {
+    position: relative;
+    height: 100%;
+    /* width: 100%; */
+    padding: 0%;
+    margin: 0;
+    overflow: hidden;
+
+    
+}
+
+#overlay {
+    position: absolute;
+    
+    top: 0;
+    left: 0;
+    
+    clear: float;
+height: 100%;
+width: 100%;
+background-color: rgba(57, 0, 54, .35);
+color: #ffffff;
+overflow: hidden;
+
+
+
+
+}
+
+#hero_text{
+    size: 32;
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    z-index: 3;
+}
+
+.img-fluid {
+    height: 100%;
+    position: relative;
+   /* background-image: url("cinque_terre.jpg"); */
+   background-size: cover;
+   background-repeat: no-repeat;
+
+
+    
+}
